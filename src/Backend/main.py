@@ -19,6 +19,6 @@ app.add_middleware(
 def root():
     return {"message":"Hello 'Wajahat' from fast api"}
 
-@app.get("/hobbies")
-def add_hobies():
-    return {"hobbies":"gardening"}
+#@app.get("/hobbies")
+#def add_hobies():
+#    return {"hobbies":"gardening"}
