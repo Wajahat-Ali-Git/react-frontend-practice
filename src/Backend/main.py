@@ -15,10 +15,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
-def root():
-    return {"message":"Hello 'Wajahat' from fast api"}
+items = ["apple", "banana", "cherry"]
 
-#@app.get("/hobbies")
-#def add_hobies():
-#    return {"hobbies":"gardening"}
+@app.get("/items")
+def get_items():
+    return {"items": items}
+
+@app.post("/items/{new_item}")
+def add_item(new_item: str):
+    items.append(new_item)  # modify array
+    return {"items": items}

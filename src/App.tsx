@@ -1,25 +1,16 @@
 import React, { useState, useEffect } from "react";
+import CompomentA from "./useContextHook/ComponentA";
+import UseCallbackHook from "./useCallback";
 
 //import HookUseEffect from "./HookUseEffect";
 //import HelloFastApi from "./HelloFastApi";
-import ReactProps from "./ReactProps";
+//import ReactProps from "./ReactProps";
 //import Hooks from "./Hooks";
 
 function App() {
   return (
     <>
-      <ReactProps
-        buttonName="myButton"
-        buttonColor={"gray"}
-        inputValue={0}
-        heading="Button Component:"
-      />
-      <ReactProps
-        buttonName="myButton1"
-        buttonColor={"gray"}
-        inputValue={0}
-        heading="Button Component:"
-      />
+      <UseCallbackHook />
     </>
   );
 }
