@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useCallback, useContext, useEffect, useState } from "react";
 import { userContext } from "./ComponentA";
 
 interface userValues {
@@ -6,9 +6,10 @@ interface userValues {
 }
 
 function ComponentD(prop: userValues) {
-  useEffect(() => {
+   useCallback( {
     console.log(`i got rendered ${Math.random()}`);
-  });
+  };)
+
   let b = useContext(userContext);
 
   return (
