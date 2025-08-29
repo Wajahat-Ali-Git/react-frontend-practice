@@ -15,7 +15,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-items = ["apple", "banana", "cherry"]
+items = [ "Wajahat", "Wajid",24]
 
 @app.get("/items")
 def get_items():
@@ -25,3 +25,4 @@ def get_items():
 def add_item(new_item: str):
     items.append(new_item)  # modify array
     return {"items": items}
+ 
