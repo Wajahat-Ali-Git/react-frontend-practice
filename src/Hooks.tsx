@@ -34,7 +34,7 @@ function Hooks() {
       <h2>My hobies:</h2>
       <input
         id="userInput"
-        type="text"
+        type="password"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />

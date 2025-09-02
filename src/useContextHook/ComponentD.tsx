@@ -6,9 +6,7 @@ interface userValues {
 }
 
 function ComponentD(prop: userValues) {
-   useCallback( {
-    console.log(`i got rendered ${Math.random()}`);
-  };)
+  console.log(`i got rendered ${Math.random()}`);
 
   let b = useContext(userContext);
 

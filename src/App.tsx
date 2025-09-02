@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
-import ExampleC from "./useCallbackHook/ExampleC";
+//import ExampleC from "./useCallbackHook/ExampleC";
+//import HookuseMemo from "./useMemoHook/HookuseMemo";
+//import HookUseRef from "./useRefHook/HookUseRef";
+//import UseRefHookB from "./useRefHook/UseRefHookB";
+//import UseRefHookC from "./useRefHook/UseRefHookC";
+import HookUseReducer from "./HookUseReducer";
 //import CompomentA from "./useContextHook/ComponentA";
 //import UseCallbackHook from "./useCallback";
 //import HelloFastApi from "./HelloFastApi";
@@ -7,7 +12,7 @@ import ExampleC from "./useCallbackHook/ExampleC";
 //import HookUseEffect from "./HookUseEffect";
 //import HelloFastApi from "./HelloFastApi";
 //import ReactProps from "./ReactProps";
-//import Hooks from "./Hooks";
+import Hooks from "./Hooks";
 //import Parent from "./useCallbackHook/ParentFunc";
 //import ExampleB from "./useCallbackHook/ExampleB";
 //import ParentFunc from "./useCallbackHook/ParentFunc";
@@ -15,7 +20,7 @@ import ExampleC from "./useCallbackHook/ExampleC";
 function App() {
   return (
     <>
-      <ExampleC />
+      <Hooks />
     </>
   );
 }
