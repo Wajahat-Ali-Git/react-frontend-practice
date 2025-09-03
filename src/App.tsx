@@ -12,7 +12,8 @@ import HookUseReducer from "./HookUseReducer";
 //import HookUseEffect from "./HookUseEffect";
 //import HelloFastApi from "./HelloFastApi";
 //import ReactProps from "./ReactProps";
-import Hooks from "./Hooks";
+//import Hooks from "./Hooks";
+import FormSignup from "./FormicYup/FormSignup";
 //import Parent from "./useCallbackHook/ParentFunc";
 //import ExampleB from "./useCallbackHook/ExampleB";
 //import ParentFunc from "./useCallbackHook/ParentFunc";
@@ -20,7 +21,7 @@ import Hooks from "./Hooks";
 function App() {
   return (
     <>
-      <Hooks />
+      <FormSignup />
     </>
   );
 }
